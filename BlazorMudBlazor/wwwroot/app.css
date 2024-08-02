@@ -49,3 +49,12 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+/* Sobrescrevendo estilos do .mud-paper */
+.mud-paper-nav-app {
+    color: unset !important; /* ou initial */
+    background-color: unset !important; /* ou initial */
+    border-radius: unset !important; /* ou initial */
+    transition: unset !important; /* ou initial */
+    box-shadow: unset !important;
+}
