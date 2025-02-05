@@ -15,11 +15,14 @@
     <MudAppBar Color="Color.Success"
                Class="mb-5">
         <MudGrid Class="p-3">
-            @* <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" /> *@
 
-            <MudItem xs="10">
+            <MudItem xs="2" Class="d-flex justify-start align-center">
+                <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Default" Edge="Edge.Start" Size="@Size.Large" OnClick="@((e) => DrawerToggle())" />
+            </MudItem>
+
+            <MudItem xs="8">
                 <MudPaper Class="d-flex flex-column justify-center mud-width-full py-8 mud-paper-nav-app">
-                    <h5>My Application</h5>
+                    <h3>My Application</h3>
                 </MudPaper>
 
             </MudItem>
